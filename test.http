@@ -14,7 +14,7 @@ Content-Type: application/json
 
 {
     "email": "kennyjackson@gmail.com",
-    "password": "kennyway5638"
+    "password": "kenny638"
 }
 
 ###
@@ -38,6 +38,6 @@ POST http://localhost:3000/users/reset-password
 Content-Type: application/json
 
 {
-    "reset_PasswordToken": "f62774a3-4e3b-47fa-a66c-a1e331e7cb12",
-    "password" : "kennyway5638"
+    "reset_PasswordToken": "e8c41cc0-254c-4bc4-8a81-509521a98903",
+    "password" : "kenny638"
 }
