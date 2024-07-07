@@ -1,0 +1,43 @@
+POST http://localhost:3000/users/register-user
+Content-Type: application/json
+
+{
+    "fullName": "Kenny Rise ",
+    "email": "kennyohia@gmail.com",
+    "password": "chimdinma4"
+}
+
+###
+
+POST http://localhost:3000/users/login-user
+Content-Type: application/json
+
+{
+    "email": "kennyjackson@gmail.com",
+    "password": "kennyway5638"
+}
+
+###
+
+GET http://localhost:3000/user/user-profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2Njg5ZTU0NjFmODhmYTJmZDVjZGEzMzUiLCJlbWFpbCI6Imtlbm55b2hpYUBnbWFpbC5jb20iLCJpYXQiOjE3MjAzMTMxODl9.xQXPEIqf8Kcs5v6CvwOdsS7hbMCsfp_GgDIekpziI1Q 
+
+###
+
+POST http://localhost:3000/users/forgot-password
+Content-Type: application/json
+
+{
+    "email": "kennyjackson@gmail.com"
+}
+
+
+###
+
+POST http://localhost:3000/users/reset-password
+Content-Type: application/json
+
+{
+    "reset_PasswordToken": "f62774a3-4e3b-47fa-a66c-a1e331e7cb12",
+    "password" : "kennyway5638"
+}
